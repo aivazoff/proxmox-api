@@ -2,6 +2,7 @@
     "name": "armd-pro/proxmox-api",
     "type": "library",
     "description": "Proxmox API for PHP",
+    "license": "MIT",
     "authors": [
         {
             "name": "Arthur Ayvazov",
