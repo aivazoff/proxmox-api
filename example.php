@@ -11,7 +11,7 @@ try {
 
     print_r($vm->get('status/current'));
 
-    /*$vm->put("resize", [
+    /*$vm->set("resize", [
         'disk' => $vm->config()->bootdisk,
         'size' => "+1G"
     ]);*/

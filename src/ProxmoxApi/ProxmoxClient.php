@@ -32,7 +32,7 @@ class ProxmoxClient
     {
         $this->host = $host;
 
-        $resp = $this->post('/access/ticket', [
+        $resp = $this->create('/access/ticket', [
             'password' => $password,
             'username' => $user,
             'realm'    => $realm
@@ -82,7 +82,7 @@ class ProxmoxClient
 
             case(self::REQUEST_MENTHOD_PUT):
                 curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($params));
-                curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "PUT");
+                curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "set");
                 break;
 
             case (self::REQUEST_MENTHOD_DELETE):

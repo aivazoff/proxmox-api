@@ -35,7 +35,7 @@ trait ProxmoxTrait
      * @return mixed
      * @throws ProxmoxApiException
      */
-    public function post($action, array $params = []) {
+    public function create($action, array $params = []) {
         return $this->api()->request(ProxmoxClient::REQUEST_MENTHOD_POST, $this->pathNormalize($action), $params);
     }
 
@@ -45,7 +45,7 @@ trait ProxmoxTrait
      * @return mixed
      * @throws ProxmoxApiException
      */
-    public function put($action, array $params = []) {
+    public function set($action, array $params = []) {
         return $this->api()->request(ProxmoxClient::REQUEST_MENTHOD_PUT, $this->pathNormalize($action), $params);
     }
 
