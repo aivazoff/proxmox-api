@@ -1,7 +1,13 @@
-# Proxmox API
-Example
+# Proxmox API for PHP
+
+**Install**
+```bash
+composer require armd-pro/proxmox-api
+```
+
+**Example**
 ```php
-require_once __DIR__ . '/proxmox-api.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 try {
 

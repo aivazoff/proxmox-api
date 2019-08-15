@@ -1,5 +1,7 @@
 {
     "name": "armd-pro/proxmox-api",
+    "type": "library",
+    "description": "Proxmox API for PHP",
     "authors": [
         {
             "name": "Arthur Ayvazov",
