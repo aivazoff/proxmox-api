@@ -45,7 +45,7 @@ class ProxmoxClient
         // print_r($resp);
     }
 
-    function api() {
+    function client() {
         return $this;
     }
 

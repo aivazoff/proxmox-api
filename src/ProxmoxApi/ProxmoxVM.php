@@ -35,8 +35,8 @@ class ProxmoxVM
         $this->id = $vmid;
     }
 
-    function api() {
-        return $this->node->api();
+    function client() {
+        return $this->node->client();
     }
 
     function path() {

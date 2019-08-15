@@ -14,7 +14,7 @@ class ProxmoxNode
     /**
      * @var ProxmoxClient
      */
-    protected $api;
+    protected $client;
 
     /**
      * @var string
@@ -28,11 +28,11 @@ class ProxmoxNode
 
     /**
      * ProxmoxNode constructor.
-     * @param ProxmoxClient $api
+     * @param ProxmoxClient $client
      * @param string $name
      */
-    public function __construct(ProxmoxClient $api, $name) {
-        $this->api = $api;
+    public function __construct(ProxmoxClient $client, $name) {
+        $this->client = $client;
         $this->name = $name;
     }
 
@@ -43,8 +43,8 @@ class ProxmoxNode
     /**
      * @return ProxmoxClient
      */
-    public function api() {
-        return $this->api;
+    public function client() {
+        return $this->client;
     }
 
     /**
@@ -55,7 +55,7 @@ class ProxmoxNode
     }
 
     /**
-     * @return stdClass
+     * @return \stdClass
      * @throws ProxmoxApiException
      */
     public function config() {
