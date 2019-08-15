@@ -8,7 +8,7 @@ namespace ProxmoxApi;
  */
 class ProxmoxVM
 {
-    use ProxmoxTrait;
+    use ProxmoxMethodsTrait;
 
     /**
      * @var ProxmoxNode

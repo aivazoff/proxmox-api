@@ -7,7 +7,7 @@ namespace ProxmoxApi;
  * Trait ProxmoxApiTrait
  * @package ProxmoxApi
  */
-trait ProxmoxTrait
+trait ProxmoxMethodsTrait
 {
     /**
      * @return ProxmoxClient

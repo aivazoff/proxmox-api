@@ -9,7 +9,7 @@ namespace ProxmoxApi;
  */
 class ProxmoxNode
 {
-    use ProxmoxTrait;
+    use ProxmoxMethodsTrait;
 
     /**
      * @var ProxmoxClient

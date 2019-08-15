@@ -8,7 +8,7 @@ namespace ProxmoxApi;
  */
 class ProxmoxClient
 {
-    use ProxmoxTrait;
+    use ProxmoxMethodsTrait;
 
     const REQUEST_MENTHOD_DELETE = 'DELETE';
     const REQUEST_MENTHOD_POST = 'POST';
