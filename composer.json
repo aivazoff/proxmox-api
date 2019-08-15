@@ -2,7 +2,7 @@
     "name": "armd-pro/proxmox-api",
     "type": "library",
     "description": "Proxmox API for PHP",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
     "license": "MIT",
     "authors": [
         {
