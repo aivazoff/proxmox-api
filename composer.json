@@ -1,0 +1,20 @@
+{
+    "name": "armd-pro/proxmox-api",
+    "authors": [
+        {
+            "name": "Arthur Ayvazov",
+            "email": "armancho1@gmail.com",
+            "homepage": "https://github.com/armd-pro/proxmox-api"
+        }
+    ],
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/armd-pro/proxmox-api"
+    }],
+    "autoload": {
+        "psr-4": {
+            "ProxmoxApi\\": "src/ProxmoxApi"
+        }
+    },
+    "require": {}
+}
