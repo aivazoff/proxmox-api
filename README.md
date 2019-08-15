@@ -5,6 +5,8 @@
 composer require armd-pro/proxmox-api
 ```
 
+[Proxmox API documentation](https://pve.proxmox.com/pve-docs/api-viewer/index.html)
+
 **Example**
 ```php
 require_once __DIR__ . '/vendor/autoload.php';
