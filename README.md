@@ -13,8 +13,8 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 try {
 
-    $api = new ProxmoxApiClient('127.0.0.1:8006', 'root', 'password', 'pam');
-    $node = $api->node('proxmox'/* Node name */);
+    $client = new ProxmoxApiClient('127.0.0.1:8006', 'root', 'password', 'pam');
+    $node = $client->node('proxmox'/* Node name */);
     $vm = $node->vm(100/* VM id */);
     
     print_r($vm->get('status/current'));
@@ -24,7 +24,7 @@ try {
         'size' => "+1G"
     ]);*/
     
-    // print_r($api->get('nodes'));
+    // print_r($client->get('nodes'));
     // print_r($node->get('disks/list'));
     // print_r($vm->config());
 

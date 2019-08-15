@@ -5,8 +5,8 @@ $config = include __DIR__ . '/config.php';
 
 try {
 
-    $api = new \ProxmoxApi\ProxmoxClient($config['host'], $config['user'], $config['password'], $config['realm']);
-    $node = $api->node('proxmox'/* Node name */);
+    $client = new \ProxmoxApi\ProxmoxClient($config['host'], $config['user'], $config['password'], $config['realm']);
+    $node = $client->node('proxmox'/* Node name */);
     $vm = $node->vm(100/* VM id */);
 
     print_r($vm->get('status/current'));
@@ -16,7 +16,7 @@ try {
         'size' => "+1G"
     ]);*/
 
-    // print_r($api->get('nodes'));
+    // print_r($client->get('nodes'));
     // print_r($node->get('disks/list'));
     // print_r($vm->config());
 
