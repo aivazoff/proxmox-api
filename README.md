@@ -1,4 +1,4 @@
-# Proxmox API for PHP
+# Proxmox VE API for PHP
 
 **Install**
 ```bash
