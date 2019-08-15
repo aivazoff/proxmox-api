@@ -2,7 +2,6 @@
     "name": "armd-pro/proxmox-api",
     "type": "library",
     "description": "Proxmox API for PHP",
-    "version" : "1.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -17,11 +16,6 @@
     "autoload": {
         "psr-4": {
             "ProxmoxApi\\": "src/ProxmoxApi"
-        }
-    },
-    "extra" : {
-        "branch-alias" : {
-            "dev-master" : "1.0.x-dev"
         }
     }
 }
