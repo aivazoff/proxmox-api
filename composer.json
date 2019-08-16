@@ -4,6 +4,7 @@
     "description": "Proxmox API for PHP",
     "keywords": ["proxmox", "proxmox api"],
     "license": "MIT",
+    "version":"1.1.1",
     "authors": [
         {
             "name": "Arthur Ayvazov",
