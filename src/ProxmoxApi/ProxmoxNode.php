@@ -22,7 +22,7 @@ class ProxmoxNode
     protected $name;
 
     /**
-     * @var stdClass
+     * @var \stdClass
      */
     private $config;
 
@@ -36,6 +36,10 @@ class ProxmoxNode
         $this->name = $name;
     }
 
+    /**
+     * @param int $vmid
+     * @return ProxmoxVM
+     */
     public function vm($vmid) {
         return new ProxmoxVM($this, $vmid);
     }

@@ -54,7 +54,7 @@ class ProxmoxClient
     }
 
     /**
-     * @param $name
+     * @param string $name
      * @return ProxmoxNode
      */
     public function node($name) {
