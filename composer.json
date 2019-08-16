@@ -4,7 +4,6 @@
     "description": "Proxmox API for PHP",
     "keywords": ["proxmox", "proxmox api"],
     "license": "MIT",
-    "version":"1.1.1",
     "authors": [
         {
             "name": "Arthur Ayvazov",
@@ -22,6 +21,8 @@
             "ProxmoxApi\\": "src/ProxmoxApi"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra" : {
         "branch-alias" : {
             "dev-master" : "1.1.x-dev"
