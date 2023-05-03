@@ -6,9 +6,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Arthur Ayvazov",
-            "email": "armancho1@gmail.com",
-            "homepage": "https://github.com/armd-pro/proxmox-api"
+            "name": "Arthur Aivazov",
+            "email": "arthur.aivazoff@gmail.com",
+            "homepage": "https://github.com/aivazoff/proxmox-api"
         }
     ],
     "require": {
